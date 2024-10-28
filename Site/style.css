@@ -138,7 +138,7 @@ button:hover{
     height: 40%;
 }
 .subtitulo1{
-    margin-left: 10px;
+    margin-left: 5px;
     margin-right: 10px;
     width: 95vw;
     font-family: "Protest Strike", serif;
@@ -149,11 +149,13 @@ button:hover{
     color: white; text-shadow: black 0.1em 0.1em 0.2em
 }
 .subtitulo1 p{
-    width: 80vw;
+    width: 50vw;
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-left: 10%;
+    margin-left: 22%;
+    position: absolute;
+    margin-top: 5%;
 }
 .fade{
     margin-left: 80%;
@@ -161,15 +163,17 @@ button:hover{
     height: 200%;
     width: 15%;
     border-radius: 60px;
+    margin-right: 10%;
 }
 
 .fy{
     height: 100vh;
+    width: 100vw;
     background-image: linear-gradient( to bottom, #730099 50%,black);
 }
 
 .container-fy{
-    height: 80vh;
+    height: 100vh;
     font-family: "Protest Strike", serif;
     font-size: 3.7rem;
     color: #fff;
@@ -221,8 +225,66 @@ i{
     background-color: #260033;
     margin: auto;
     width: 50vw;
-    height: 90vh;
+    height: 70vh;
 }
 
+.cod{ 
+    display: flex;
+    flex-direction: initial;
+    margin-left: 7%;
+    padding: 20px;
+    height: 200%;
+    width: 15%;
+    border-radius: 60px;
+}
 
+.subtitulo2{
+    margin-left: 6%;
+}
 
+.protagonismo{
+    height: 95vh;
+    background-image: linear-gradient( to top, #730099 50%,black);
+}
+
+.titulo4{
+    padding: 40px;
+    font-family: "Protest Strike", serif;
+    font-size: 6rem;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 5px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.texto1{
+    margin-left: 15vw;
+    margin-top: 2%;
+    margin-right: 10px;
+    width: 45vw;
+    font-family: "Protest Strike", serif;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.img4 .lara{
+    border-radius: 40px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: -60%;
+    margin-left: 55vw;
+}
+
+.next-carrossel{
+    margin-right: 20%;
+    color: #000000;
+}
+
+.prev-carrossel{
+    margin-left: 20%;
+    color: #000000;
+}
