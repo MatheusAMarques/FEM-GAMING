@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    padding: 20px;
+    background-color: black;
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+    font-family: 'Protest-Strike';
+    font-style: italic;
+    font-size: 4.5rem;
+    letter-spacing: -10px;
+    margin-left: 2%;
+    box-shadow: black;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+.entre{
+    font-family:'Protest-Strike';
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+.nav-bar{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Protest Strike';
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    list-style: none;
+    margin-right: 7%;
+}
+.nav-list:hover{
+    cursor: pointer;
+}
+.titulo-principal{
+    padding: 20px;
+    font-family: 'Protest Striker' sans-serif;
+    font-size: 6rem;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+.home {
+    height: 50vw;
+    width: 100%;
+    background-image: url('imagens/home.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.home h1{
+    font-family: "Protest Strike", serif;
+    margin-top: 3%;
+    margin-left: 30px;
+    letter-spacing: 3px;
+    font-size: 8rem;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+.home h2{
+    font-family: "Protest Strike", serif;
+    margin-left: 50px;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+.home p{
+    font-family: "Protest Strike", serif;
+    margin-left: 50px;
+    font-style: italic;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.frase{
+    width: 140vh;
+}
+
+.saibaMais{
+    margin-top: 100px;
+    margin-left: 50px;
+    background-color: #730099;
+    color: white;
+    font-family: "Protest Strike", serif;
+    padding: 20px;
+    font-size: 3rem;
+    border-radius: 35px;
+    border: none;
+    
+}
+
+.forum{
+    margin-top: 100px;
+    margin-left: 90px;
+    background-color: #730099;
+    color: white;
+    font-family: "Protest Strike", serif;
+    padding: 20px;
+    font-size: 3rem;
+    border-radius: 35px;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #b303ee;
+    transform: scale(1.1);
+    transition: transform 0.3s;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+.fazemos{
+
+    background-image: linear-gradient( to top, #730099 50%,black);
+}
+
+
+.titulo-secundario{
+    font-family: "Protest Strike", serif;
+    font-size: 6rem;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 5px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+.container-head-fazemos {
+    height: 40%;
+}
+.subtitulo1{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 95vw;
+    font-family: "Protest Strike", serif;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+.subtitulo1 p{
+    width: 80vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+}
+.fade{
+    margin-left: 80%;
+    padding: 20px;
+    height: 200%;
+    width: 15%;
+    border-radius: 60px;
+}
+
+.fy{
+    height: 100vh;
+    background-image: linear-gradient( to bottom, #730099 50%,black);
+}
+
+.container-fy{
+    height: 80vh;
+    font-family: "Protest Strike", serif;
+    font-size: 3.7rem;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 5px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.titulo-secundario{
+    padding: 30px;
+}
+.titulo-terciario{
+    padding: 50px;
+}
+
+.swiper{
+    margin-top: 120px;
+}
+.subtitulo-carrossel{
+    padding: 20px;
+    font-family: 'Protest Strike';
+    font-size: 4rem;
+    text-align: center;
+    width: 48vw;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.descricao-carrossel{
+    font-family: 'Protest Strike';
+    font-size: 2rem;
+    width: 40vw;
+    align-items: center;
+    margin-left:10% ;
+}
+
+i{
+    padding: 20px;
+    font-size: 5rem;
+}
+
+.question{
+    background-color: black;
+}
+
+.clipboard{
+    border-radius: 30px;
+    background-color: #260033;
+    margin: auto;
+    width: 50vw;
+    height: 90vh;
+}
+
+
+
