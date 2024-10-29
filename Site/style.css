@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&display=swap');
 
 nav{
     padding: 20px;
@@ -149,11 +150,12 @@ button:hover{
     color: white; text-shadow: black 0.1em 0.1em 0.2em
 }
 .subtitulo1 p{
-    width: 50vw;
+    width: 60vw;
+    height: 50vh;
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-left: 22%;
+    margin-left: 10%;
     position: absolute;
     margin-top: 5%;
 }
@@ -163,12 +165,10 @@ button:hover{
     height: 200%;
     width: 15%;
     border-radius: 60px;
-    margin-right: 10%;
 }
 
 .fy{
     height: 100vh;
-    width: 100vw;
     background-image: linear-gradient( to bottom, #730099 50%,black);
 }
 
@@ -186,7 +186,7 @@ button:hover{
     padding: 30px;
 }
 .titulo-terciario{
-    padding: 50px;
+    padding: 30px;
 }
 
 .swiper{
@@ -213,7 +213,7 @@ button:hover{
 
 i{
     padding: 20px;
-    font-size: 5rem;
+    font-size: 7rem;
 }
 
 .question{
@@ -223,9 +223,9 @@ i{
 .clipboard{
     border-radius: 30px;
     background-color: #260033;
-    margin: auto;
+    margin-left: 25%;
     width: 50vw;
-    height: 70vh;
+    height: 90vh;
 }
 
 .cod{ 
@@ -239,11 +239,21 @@ i{
 }
 
 .subtitulo2{
-    margin-left: 6%;
+    margin-bottom: 3%;
+    margin-left: 20%;
+}
+
+.next-carrossel{
+    width: 40vw;
+    color: #260033;
+}
+
+.prev-carrossel{
+    width: 40vw;
+    color: #260033;
 }
 
 .protagonismo{
-    height: 95vh;
     background-image: linear-gradient( to top, #730099 50%,black);
 }
 
@@ -275,16 +285,84 @@ i{
     height: 70vh;
     display: flex;
     flex-direction: column;
-    margin-top: -60%;
+    margin-top: -70%;
     margin-left: 55vw;
 }
 
-.next-carrossel{
-    margin-right: 20%;
-    color: #000000;
+.competitivo{
+    height: 100vh;
+    background-image: linear-gradient( to bottom, #730099 50%,black);
 }
 
-.prev-carrossel{
-    margin-left: 20%;
-    color: #000000;
+.titulo5{
+    padding: 40px;
+    font-family: "Protest Strike", serif;
+    font-size: 6rem;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 5px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.texto2{
+    margin-left: 15vw;
+    margin-top: 5%;
+    margin-right: 10px;
+    width: 70vw;
+    font-family: "Protest Strike", serif;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.esl{
+    padding: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+.gg{
+    padding: 50px;
+    width: 250px;
+    height: 150px;
+}
+
+.gc{
+    padding: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+.comunicacao{
+    background-image: linear-gradient( to top, #730099 50%,black);
+}
+
+.subtitulo-carrossel2{
+    padding: 20px;
+    font-family: 'Protest Strike';
+    font-size: 4rem;
+    text-align: center;
+    width: 48vw;
+    display: flex;
+    justify-content: center;
+}
+
+.descricao-carrossel2{
+    padding: 20px;
+    letter-spacing: 2px;
+    font-family: 'Protest Strike';
+    font-size: 1.5rem;
+    width: 40vw;
+    align-items: center;
+    margin-left:8%;
+}
+
+.discord{
+    border-radius: 30px;
+    background-color: #260033;
+    margin-left: 25%;
+    width: 50vw;
+    height: 90vh;
 }
