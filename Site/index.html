@@ -70,7 +70,7 @@
             <div class="fy">
                 <div class="container-fy">
                     <h1 class="titulo-terciario">PARA VOCÊ</h1>
-                    <div class="swiper fy">
+                    <div class="swiper fy paravc">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="clipboard">
@@ -109,8 +109,8 @@
                         </div>
                     </div>
                     <div class="div_botoes">
-                        <div class="swiper-button-next next-carrossel" ></div>
-                        <div class="swiper-button-prev prev-carrossel"></div>
+                        <div class="swiper-button-next btn-proximo" ></div>
+                        <div class="swiper-button-prev btn-anterior"></div>
                     </div>
                 </div>
                 <div class="protagonismo">
@@ -136,12 +136,65 @@
                                 <div class="discord">
                                     <i class='bx bxl-discord-alt'></i>
                                     <p class="subtitulo-carrossel2">DISCORD</p>
-                                    <p class="descricao-carrossel2">O Discord é uma plataforma de comunicação amplamente utilizada, especialmente entre gamers, mas também por diversos tipos de comunidades online. Originalmente criado em 2015 para facilitar a comunicação entre jogadores durante partidas, o Discord se expandiu e se tornou popular em várias outras áreas, como educação, desenvolvimento de software, arte e entretenimento.</p>
+                                    <p class="descricao-carrossel">O Discord é uma plataforma de comunicação amplamente utilizada, especialmente entre gamers, mas também por diversos tipos de comunidades online. Originalmente criado em 2015 para facilitar a comunicação entre jogadores durante partidas, o Discord se expandiu e se tornou popular em várias outras áreas, como educação, desenvolvimento de software, arte e entretenimento.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="twitch">
+                                    <i class='bx bxl-twitch' ></i>
+                                    <p class="subtitulo-carrossel3">TWITCH</p>
+                                    <p class="descricao-carrossel">A Twitch é uma plataforma de streaming ao vivo lançada em 2011, originalmente focada em videogames, onde jogadores e criadores de conteúdo podem transmitir seus jogos em tempo real, interagir com o público via chat e construir comunidades. Com o passar dos anos, a Twitch expandiu seu conteúdo para outras categorias, incluindo música, arte, conversas sobre temas variados (categoria "Just Chatting"), e até atividades como culinária, esportes e transmissões de estilo de vida.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="youtube">
+                                    <i class='bx bxl-youtube'></i>
+                                    <p class="subtitulo-carrossel4">YOUTUBE</p>
+                                    <p class="descricao-carrossel">O YouTube Gaming é uma seção do YouTube dedicada ao streaming de jogos e conteúdos relacionados ao universo gamer. Criado em 2015, inicialmente era uma plataforma separada, mas em 2018 foi incorporado ao YouTube principal, integrando o conteúdo de games à plataforma geral. O YouTube Gaming permite que os criadores façam transmissões ao vivo, postem vídeos gravados e criem uma experiência interativa para o público gamer, assim como a Twitch, mas com as vantagens da infraestrutura do YouTube.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="steam">
+                                    <i class='bx bxl-steam' ></i>
+                                    <p class="subtitulo-carrossel5">STEAM</p>
+                                    <p class="descricao-carrossel">A Steam é uma plataforma de distribuição digital de jogos eletrônicos criada pela Valve Corporation em 2003. Inicialmente, foi desenvolvida como uma solução para facilitar a atualização dos jogos da própria Valve, mas rapidamente se expandiu para incluir títulos de outras desenvolvedoras e passou a ser a maior loja digital de games do mundo. Além da venda de jogos, a Steam oferece uma gama de funcionalidades que tornam a experiência de jogar e interagir na comunidade gamer mais completa.</p>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                        <div class="div_botoes">
+                            <div class="swiper-button-next next-carrossel1" ></div>
+                            <div class="swiper-button-prev prev-carrossel1"></div>
+                        </div>
+                    </div> 
                 </div>
+                <div class="quiz">
+                    <div class="tamanho-texto">
+                    <h1 class="titulo7">ACESSO AO QUIZ</h1>
+                    </div>
+                    <div class="filho">
+                    <div class="img-caveira">
+                        <img class="caveira-player" src="imagens/caveira4.jpg" alt="">
+                    </div>
+                    <div class="acesso">
+                        <h1 class="titulo8">GOSTARIA DE TER ACESSO AO NOSSO QUIZ?</h1>
+                    
+                    <div><button class="primeiro-botao" onclick="saibaMais()">SAIBA MAIS</button></div>
+                    <div><button class="segundo-botao" onclick="quiz()">QUIZ</button></div>
+                    </div>
+                    </div>
+                    </div>
+                        <div class="organizador">
+                            <div class="texto">
+                                <h1>ORGANIZADOR</h1>
+                            </div>
+                            <div class="organizador-img">
+                                <img src="imagens/organizador.png" alt="">
+                            </div>
+                            <div class="sobre">
+                                <p class="sobre-projeto">Foi uma honra trabalhar nesse projeto, pois ele não apenas me desafiou, mas também expandiu minha visão em diversas áreas. Através dessa experiência, consegui enxergar novas perspectivas e desenvolver ideias que, até então, não faziam parte do meu repertório.</p>
+                            </div>
+                        </div>
+                        <footer></footer>
                 </div>
             </div>
 
@@ -151,20 +204,27 @@
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
-    var swiper = new Swiper(".fy", {
+    var swiper = new Swiper(".paravc", {
       slidesPerView: 1,
       spaceBetween: 30,
       loop: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      
       navigation: {
-        nextEl: ".next-carrossel",
-        prevEl: ".prev-carrossel",
+        nextEl: ".btn-proximo",
+        prevEl: ".btn-anterior",
       },
       }
+
+    );
+    var swiper2 = new Swiper(".com", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,      
+      navigation: {
+        nextEl: ".next-carrossel1",
+        prevEl: ".prev-carrossel1",
+      },
+      }
+      
     );
     console.log(1)
 

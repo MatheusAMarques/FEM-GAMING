@@ -243,12 +243,12 @@ i{
     margin-left: 20%;
 }
 
-.next-carrossel{
+.btn-proximo{
     width: 40vw;
     color: #260033;
 }
 
-.prev-carrossel{
+.btn-anterior{
     width: 40vw;
     color: #260033;
 }
@@ -349,12 +349,12 @@ i{
     justify-content: center;
 }
 
-.descricao-carrossel2{
+.descricao-carrossel{
     padding: 20px;
     letter-spacing: 2px;
     font-family: 'Protest Strike';
     font-size: 1.5rem;
-    width: 40vw;
+    width: vw;
     align-items: center;
     margin-left:8%;
 }
@@ -366,3 +366,147 @@ i{
     width: 50vw;
     height: 90vh;
 }
+
+.twitch{
+    border-radius: 30px;
+    background-color: #260033;
+    margin-left: 25%;
+    width: 50vw;
+    height: 90vh;
+}
+
+.youtube{
+    border-radius: 30px;
+    background-color: #260033;
+    margin-left: 25%;
+    width: 50vw;
+    height: 90vh;
+}
+
+.steam{
+    border-radius: 30px;
+    background-color: #260033;
+    margin-left: 25%;
+    width: 50vw;
+    height: 90vh;
+}
+
+.prev-carrossel1{
+    width: 40vw;
+    color: #260033;
+}
+
+.next-carrossel1{
+    width: 40vw;
+    color: #260033;
+}
+
+.quiz{
+    padding: 5%;
+    height: 100vh;
+    background-image: linear-gradient( to bottom, #730099 50%,black);
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.caveira-player{
+    height: 80vh;
+    width: 30vw;
+    margin-right: 50%;
+    padding: 2%;
+    border-radius: 60px;
+}
+
+.quiz{
+    width: 89vw;
+    height: 100vh;
+}
+
+.tamanho-texto{
+    width: 100%;
+    height: 20%;
+}
+
+.filho{
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+.titulo8{
+    font-size: 3rem;
+    width: 100%;
+    margin-top: 3%;
+}
+
+.img-caveira{
+    width: 40%;
+}
+.acesso{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+.primeiro-botao{
+    margin-top: 70px;
+    margin-left: 50px;
+    background-color: #730099;
+    color: white;
+    font-family: "Protest Strike", serif;
+    padding: 20px;
+    font-size: 6rem;
+    border-radius: 35px;
+    border: none
+}
+
+.segundo-botao{
+    margin-top: 70px;
+    margin-left: 50px;
+    background-color: #730099;
+    color: white;
+    font-family: "Protest Strike", serif;
+    padding: 20px;
+    font-size: 6rem;
+    border-radius: 35px;
+    border: none
+}
+
+.organizador{
+    height: 100vh;
+    background-image: linear-gradient( to top, #730099 50%,black);
+}
+
+.organizador-img{
+    height: 70vh;
+    width: 50%;
+}
+
+.organizador-img img{
+    height: 78vh;
+    width: 30vw;
+    border-radius: 60px;
+}
+
+.sobre{
+    margin-top: -20%;
+    margin-left: 42%;
+    display: flex;
+    justify-content: flex-end;
+    height: 20vh;
+    width: 55%;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    background-color: white;
+    color: black;
+    padding: 1%;
+    border-radius: 60px;
+}
+
+footer{
+    height: 30vh;
+    background-color: black;
+}
+
