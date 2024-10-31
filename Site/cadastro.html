@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Email:
+    <input type="text" oninput="entrar()" id="ipt_email" placeholder="email"> <br>
+    <div id="mensagem_email"></div>
+    Senha:
+    <input type="password" oninput="entrar()" id="ipt_senha" placeholder="senha">
+    <div id="div_senha"></div>
+    <input type="submit" onclick="entrar() ; return false">
+
+</body>
+</html>
+
+<script>
+    
+    function entrar(){
+    var v_email = 0;
+    var email = ipt_email.value
+    var email_minúsculo = email.toLowerCase()
+    var validacao_min = email_minúsculo != email
+    var incluso_email = email.includes('@') && email.includes('.com')
+    
+    if(!incluso_email){
+        mensagem_email.innerHTML = `Email precisa de @ e .com`
+        v_email = 0;
+    }else{
+        mensagem_email.innerHTML = ``
+        v_email = 1;
+    }
+    
+    
+    var senha = ipt_senha.value
+    var v_senha = 0;
+    var incluso_senha = senha.includes('@') || senha.includes('!') || senha.includes('*') || senha.includes('#') || senha.includes('%') || senha.includes('$')  || senha.includes('/') || senha.includes(' ');
+    var tamanho_senha = senha.length
+    var validacao_smin = senha.toLowerCase() != senha
+    var validacao_smai = senha.toUpperCase() != senha
+
+    if(tamanho_senha < 8) {
+    div_senha.innerHTML = `Deve possuir ao menos 8 caracteres`
+    v_senha = 0;
+    }
+    else if (!incluso_senha) {
+       div_senha.innerHTML = `Deve possuir ao menos um caracter especial`
+        v_senha=0;
+    } else if(!validacao_smin || !validacao_smai){
+        div_senha.innerHTML = `Deve possuir uma letra maiúscula e uma minúscula`
+        v_senha = 0;
+    } else {
+        div_senha.innerHTML = ``
+        v_senha = 1;
+    }
+
+            
+        
+    
+}
+</script>
