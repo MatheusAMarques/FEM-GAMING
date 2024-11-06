@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&display=swap');
 
 nav{
@@ -51,7 +55,7 @@ nav{
     color: white; text-shadow: black 0.1em 0.1em 0.2em
 }
 .home {
-    height: 50vw;
+    height: 83vh;
     width: 100%;
     background-image: url('imagens/home.png');
     background-size: cover;
@@ -114,6 +118,10 @@ nav{
     border: none;
 }
 
+.buttons{
+    margin-top: -5%;
+}
+
 button:hover{
     cursor: pointer;
     background-color: #b303ee;
@@ -168,12 +176,12 @@ button:hover{
 }
 
 .fy{
-    height: 100vh;
+    height: 83vh;
     background-image: linear-gradient( to bottom, #730099 50%,black);
 }
 
 .container-fy{
-    height: 100vh;
+    height: 83vh;
     font-family: "Protest Strike", serif;
     font-size: 3.7rem;
     color: #fff;
@@ -189,13 +197,11 @@ button:hover{
     padding: 30px;
 }
 
-.swiper{
-    margin-top: 120px;
-}
+
 .subtitulo-carrossel{
     padding: 20px;
     font-family: 'Protest Strike';
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-align: center;
     width: 48vw;
     margin-bottom: 30px;
@@ -205,7 +211,7 @@ button:hover{
 
 .descricao-carrossel{
     font-family: 'Protest Strike';
-    font-size: 2rem;
+    font-size: 1.7rem;
     width: 40vw;
     align-items: center;
     margin-left:10% ;
@@ -225,7 +231,7 @@ i{
     background-color: #260033;
     margin-left: 25%;
     width: 50vw;
-    height: 90vh;
+    height: 70vh;
 }
 
 .cod{ 
@@ -342,7 +348,7 @@ i{
 .subtitulo-carrossel2{
     padding: 20px;
     font-family: 'Protest Strike';
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-align: center;
     width: 48vw;
     display: flex;
@@ -354,7 +360,7 @@ i{
     letter-spacing: 2px;
     font-family: 'Protest Strike';
     font-size: 1.5rem;
-    width: vw;
+    width: 40vw;
     align-items: center;
     margin-left:8%;
 }
@@ -364,7 +370,7 @@ i{
     background-color: #260033;
     margin-left: 25%;
     width: 50vw;
-    height: 90vh;
+    height: 80vh;
 }
 
 .twitch{
@@ -372,7 +378,7 @@ i{
     background-color: #260033;
     margin-left: 25%;
     width: 50vw;
-    height: 90vh;
+    height: 80vh;
 }
 
 .youtube{
@@ -380,7 +386,7 @@ i{
     background-color: #260033;
     margin-left: 25%;
     width: 50vw;
-    height: 90vh;
+    height: 80vh;
 }
 
 .steam{
@@ -388,7 +394,7 @@ i{
     background-color: #260033;
     margin-left: 25%;
     width: 50vw;
-    height: 90vh;
+    height: 80vh;
 }
 
 .prev-carrossel1{
@@ -403,7 +409,7 @@ i{
 
 .quiz{
     padding: 5%;
-    height: 100vh;
+    height: 83vh;
     background-image: linear-gradient( to bottom, #730099 50%,black);
     color: white; text-shadow: black 0.1em 0.1em 0.2em;
 }
@@ -418,7 +424,7 @@ i{
 
 .quiz{
     width: 89vw;
-    height: 100vh;
+    height: 90vh;
 }
 
 .tamanho-texto{
@@ -429,13 +435,14 @@ i{
 .filho{
     display: flex;
     width: 100%;
-    height: 80%;
+    height: 80vh;
 }
 
 .titulo8{
-    font-size: 3rem;
+    font-size: 1.8rem;
     width: 100%;
     margin-top: 3%;
+    letter-spacing: 2px;
 }
 
 .img-caveira{
@@ -443,7 +450,7 @@ i{
 }
 .acesso{
     width: 60%;
-    height: 100%;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -451,25 +458,13 @@ i{
 }
 
 .primeiro-botao{
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 50px;
     background-color: #730099;
     color: white;
     font-family: "Protest Strike", serif;
     padding: 20px;
-    font-size: 6rem;
-    border-radius: 35px;
-    border: none
-}
-
-.segundo-botao{
-    margin-top: 70px;
-    margin-left: 50px;
-    background-color: #730099;
-    color: white;
-    font-family: "Protest Strike", serif;
-    padding: 20px;
-    font-size: 6rem;
+    font-size: 5rem;
     border-radius: 35px;
     border: none
 }
@@ -505,8 +500,22 @@ i{
     border-radius: 60px;
 }
 
+.sobre-projeto{
+    text-decoration: none !important;
+    color: black; text-shadow: white 0.1em 0.1em 0.2em;
+
+}
+
 footer{
     height: 30vh;
     background-color: black;
 }
 
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.login{
+    height: 100vh; 
+}

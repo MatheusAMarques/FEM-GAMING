@@ -11,31 +11,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="login.html">
+    <link rel="stylesheet" href="cadastro.html">
     <script src="https://kit.fontawesome.com/d5ea0dfb99.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav>
-        
         <div class="nav-bar ">
             <h1 class="logo">F<span class="entre">&</span>G</h1>
             <ul class="nav-list">
             <li id="navHome" class="nav-item active">
-                HOME
+              <a href="#secao-home">HOME</a>
             </li>
             <li id="navSobreNos" class="nav-item ">
-                SOBRE NÓS
+                <a href="#secao-fazemos">SOBRE NÓS</a>
             </li>
             <li id="navQuiz" class="nav-item ">
-                FÓRUM
+                <a href="#secao-organizador">ORGANIZADOR</a>
             </li>
             <li id="navLogin" class="nav-item ">
-                Login/Cadastre-se
+             <a href="cadastro.html">Login/Cadastre-se</a>
             </li>
             </ul>
         </div>
     </nav> 
-    <div class="home fade-in">
+    <section id="secao-home">
+    <div class="home">
         <h1 class="titulo-principal">FEM GAMING</h1>
         <h2 class="slogan">MELHOR FÓRUM DO CENÁRIO COMPETITIVO!</h2>
         <div class="frase">
@@ -46,6 +46,8 @@
             </div>
         </div>
     </div>
+    </section>
+<section id="secao-fazemos">
     <div class="fazemos fade-in">
         <div class="container-head-fazemos">
         <h1 class="titulo-secundario">O QUE FAZEMOS?</h1>
@@ -61,13 +63,11 @@
                 <img class="cod" src="imagens/cod.jpg" alt="">
                 </div>
             </div>
-            <div>
-               
-            </div>
         </div>
     </div>
+</section>
             
-     
+            <section id="secao-paravoce">
             <div class="fy">
                 <div class="container-fy">
                     <h1 class="titulo-terciario">PARA VOCÊ</h1>
@@ -170,20 +170,21 @@
                 </div>
                 <div class="quiz">
                     <div class="tamanho-texto">
-                    <h1 class="titulo7">ACESSO AO QUIZ</h1>
+                    <h1 class="titulo7">ACESSO A NOTÍCIAS</h1>
                     </div>
                     <div class="filho">
                     <div class="img-caveira">
                         <img class="caveira-player" src="imagens/caveira4.jpg" alt="">
                     </div>
                     <div class="acesso">
-                        <h1 class="titulo8">GOSTARIA DE TER ACESSO AO NOSSO QUIZ?</h1>
+                        <h1 class="titulo8">Quer saber tudo sobre o que está rolando nos maiores torneios de eSports e as novidades no mundo dos games? Acesse agora o nosso site e tenha acesso às últimas notícias sobre League of Legends, Counter-Strike 2, Valorant e outros games que dominam o cenário competitivo! Descubra quem está no topo das competições, atualizações estratégicas, mudanças nas equipes e tudo que você precisa para ficar por dentro e se sentir parte desse universo de adrenalina e grandes conquistas. Não perca nenhum detalhe – o futuro dos games está aqui!</h1>
                     
                     <div><button class="primeiro-botao" onclick="saibaMais()">SAIBA MAIS</button></div>
-                    <div><button class="segundo-botao" onclick="quiz()">QUIZ</button></div>
+                    
                     </div>
                     </div>
                     </div>
+                    <section id="secao-organizador">
                         <div class="organizador">
                             <div class="texto">
                                 <h1>ORGANIZADOR</h1>
@@ -195,9 +196,11 @@
                                 <p class="sobre-projeto">Foi uma honra trabalhar nesse projeto, pois ele não apenas me desafiou, mas também expandiu minha visão em diversas áreas. Através dessa experiência, consegui enxergar novas perspectivas e desenvolver ideias que, até então, não faziam parte do meu repertório.</p>
                             </div>
                         </div>
+                    </section>    
                         <footer></footer>
                 </div>
             </div>
+            </section>
 
 
 </body>

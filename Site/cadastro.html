@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    Email:
-    <input type="text" oninput="entrar()" id="ipt_email" placeholder="email"> <br>
-    <div id="mensagem_email"></div>
-    Senha:
-    <input type="password" oninput="entrar()" id="ipt_senha" placeholder="senha">
-    <div id="div_senha"></div>
-    <input type="submit" onclick="entrar() ; return false">
 
+    <div class="login">
+        Email:
+        <input type="text" id="ipt_email" placeholder="email"> <br>
+        <div id="mensagem_email"></div>
+        Senha:
+        <input type="password" id="ipt_senha" placeholder="senha">
+        <div id="div_senha"></div>
+        <input type="submit" onclick="entrar() ; return false">
+    </div>
 </body>
 </html>
 
