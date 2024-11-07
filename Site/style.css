@@ -423,7 +423,7 @@ i{
 }
 
 .quiz{
-    width: 89vw;
+    width: 90vw;
     height: 90vh;
 }
 
@@ -446,7 +446,7 @@ i{
 }
 
 .img-caveira{
-    width: 40%;
+    width: 45%;
 }
 .acesso{
     width: 60%;
@@ -490,7 +490,7 @@ i{
     margin-left: 42%;
     display: flex;
     justify-content: flex-end;
-    height: 20vh;
+    height: 25vh;
     width: 55%;
     font-size: 1.5rem;
     letter-spacing: 2px;
@@ -516,6 +516,33 @@ a{
     text-decoration: none;
 }
 
-.login{
-    height: 100vh; 
+.texto{
+    font-size: 6rem;
 }
+
+.caveira-player{
+    margin-bottom: 10%;
+}
+.content-cadastro{
+    height: 100vh;
+    background-image: linear-gradient( to top, #730099 50%,black);
+    position: relative;
+}
+
+
+.titulo-cadastro{
+    padding: 20px;
+    background-color: #260033;
+    border-radius: 30px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    margin-top: 15%;
+    margin-left: 25%;
+    height: 40vh;
+    width: 50vw;
+}
+
+
+
